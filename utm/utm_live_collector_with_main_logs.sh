@@ -1,7 +1,7 @@
 #!/bin/sh
 ####################################
 #
-#utm log collector for main logs
+#utm log collector for main logs small change
 #
 ####################################
 
