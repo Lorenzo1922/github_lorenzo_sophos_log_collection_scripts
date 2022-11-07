@@ -6,8 +6,6 @@
 ####################################
 
 #### function to kill jobs with trap ####
-
-#### function to kill jobs with trap ####
 cleanup()
 {
 	echo "cleanup"
@@ -279,10 +277,8 @@ echo "    https://sophos.lightning.force.com/lightning/r/Knowledge__kav/ka03Z000
 echo "  Sophos XG Firewall: Unable to deregister the XG Firewall or enable 'Sophos Central Services'  " >> /tmp/${case_number}_${xg_serial_number}/sap_note_${case_number}_${xg_serial_number}.txt
 echo "    https://sophos.lightning.force.com/lightning/r/Knowledge__kav/ka03Z0000008n7nQAA/view" >> /tmp/${case_number}_${xg_serial_number}/sap_note_${case_number}_${xg_serial_number}.txt
 echo " FQDN of proxy the SFOS connects to. Please note that this may change, and if it does, it will be shown in the ssod.log file if there are connectivity problems: fw-ssh.1602.fw.prod.hydra.sophos.com "  >> /tmp/${case_number}_${xg_serial_number}/sap_note_${case_number}_${xg_serial_number}.txt
-
 echo "  CFR - Troubleshooting  " >> /tmp/${case_number}_${xg_serial_number}/sap_note_${case_number}_${xg_serial_number}.txt
 echo "    https://sophos.atlassian.net/wiki/spaces/SUP/pages/24964406312/CFR+-+Troubleshooting" >> /tmp/${case_number}_${xg_serial_number}/sap_note_${case_number}_${xg_serial_number}.txt
-
 echo "  " >> /tmp/${case_number}_${xg_serial_number}/sap_note_${case_number}_${xg_serial_number}.txt
 echo "  " >> /tmp/${case_number}_${xg_serial_number}/sap_note_${case_number}_${xg_serial_number}.txt
 
